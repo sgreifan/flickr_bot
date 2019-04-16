@@ -1,0 +1,30 @@
+{
+    "name": "flickr_bot",
+    "version": "1.0.0",
+    "description": "flicker browser",
+    "author": "Samion Gil Reifan",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "botbuilder": "^4.2.0",
+        "botbuilder-dialogs": "^4.3.4",
+        "botframework-config": "^4.2.0",
+        "dotenv": "^6.1.0",
+        "lodash": "^4.17.11",
+        "restify": "^7.2.3",
+        "unique-random-array": "^2.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.7"
+    }
+}
