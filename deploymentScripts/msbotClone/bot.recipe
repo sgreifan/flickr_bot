@@ -16,7 +16,7 @@
         {
             "type": "abs",
             "id": "3",
-            "name": "test_bot-abs"
+            "name": "flickr_bot-abs"
         }
     ]
 }

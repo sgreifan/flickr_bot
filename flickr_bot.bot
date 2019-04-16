@@ -1,5 +1,5 @@
 {
-    "name": "test_bot",
+    "name": "flickr_bot",
     "services": [
         {
             "type": "endpoint",
