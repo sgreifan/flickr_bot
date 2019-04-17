@@ -1,5 +1,4 @@
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License.
+'use strict'
 
 const restify = require('restify');
 const path = require('path');
@@ -67,9 +66,10 @@ adapter.onTurnError = async (context, error) => {
 const memoryStorage = new MemoryStorage();
 
 const conversationState = new ConversationState(memoryStorage);
-const userState = new UserState(memoryStorage);
 
 // Create the bot object that provides the turn handler function.
+const userState = new UserState(memoryStorage);
+
 const bot = new SimplePromptBot(conversationState, userState);
 
 // Listen for incoming requests.
